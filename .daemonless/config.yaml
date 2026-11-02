@@ -1,0 +1,26 @@
+# dbuild configuration file
+# Place in .daemonless/config.yaml or .dbuild.yaml (higher priority)
+#
+# Full reference: https://github.com/daemonless/dbuild
+
+icon: ':simple-ntfy:'
+
+build:
+  architectures:
+    - amd64
+    - aarch64
+  variants:
+    - tag: pkg
+      containerfile: Containerfile.pkg
+      default: true
+    - tag: pkg-latest
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15.1-latest"
+
+cit:
+  mode: screenshot
+  port: 8080
+  health: /v1/health
+  screenshot: /
+  ready: "Listening on"

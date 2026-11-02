@@ -1,0 +1,13 @@
+#!/bin/sh
+# First run: the config is the package's sample, pointed at /config.
+mkdir -p /config/cache/attachments
+
+if [ ! -f /config/server.yml ]; then
+    cp /defaults/server.yml /config/server.yml
+    echo "[ntfy] Created /config/server.yml: set base-url to the address clients use"
+fi
+
+# The ntfy CLI (user, access, token) reads this path, so no --config is needed.
+ln -sf /config/server.yml /usr/local/etc/ntfy/server.yml
+
+chown -R bsd:bsd /config

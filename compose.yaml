@@ -1,0 +1,44 @@
+name: ntfy
+
+x-daemonless:
+  title: "ntfy"
+  icon: ":simple-ntfy:"
+  category: "Utilities"
+  description: "Simple HTTP-based pub-sub notification service: send notifications to your phone or desktop from any script with a PUT or POST."
+  upstream_url: "https://github.com/binwiederhier/ntfy"
+  web_url: "https://ntfy.sh"
+  freshports_url: "https://www.freshports.org/sysutils/go-ntfy/"
+  user: "bsd"
+  mlock: false
+  community: "Discord:https://discord.gg/Kb9tkhecZT"
+  appjail: true
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+      NTFY_BASE_URL: "Public URL clients reach the server at; turns on attachments under /config/cache/attachments (or set base-url and attachment-cache-dir in server.yml)"
+    volumes:
+      /config: "server.yml, user.db, message cache and attachments"
+    ports:
+      8080: "Web UI and API"
+
+services:
+  ntfy:
+    image: ghcr.io/daemonless/ntfy:pkg
+    container_name: ntfy
+    # "always", not "unless-stopped": FreeBSD's podman rc.d only auto-starts
+    # containers with restart-policy=always at boot (needs podman_enable=YES).
+    restart: always
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/ntfy:/config
+
+    ports:
+      - 8080:8080

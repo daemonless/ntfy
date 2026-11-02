@@ -1,0 +1,45 @@
+ARG BASE_VERSION=15.1
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
+
+ARG FREEBSD_ARCH=amd64
+ARG PKG_NAME="go-ntfy"
+ARG PACKAGES="go-ntfy ca_root_nss"
+
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
+      org.opencontainers.image.documentation="https://docs.ntfy.sh/config/" \
+      org.opencontainers.image.licenses="Apache-2.0" \
+      org.opencontainers.image.vendor="daemonless" \
+      org.opencontainers.image.authors="daemonless" \
+      io.daemonless.category="{{ category }}" \
+      io.daemonless.port="8080" \
+      io.daemonless.volumes="/config" \
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.healthcheck-url="http://localhost:8080/v1/health" \
+      io.daemonless.pkg-source="pkg" \
+      io.daemonless.packages="${PACKAGES}" \
+      io.daemonless.pkg-name="${PKG_NAME}"
+
+# Install ntfy and keep the package's config sample as the first-run config,
+# with its state under /config. The package already listens on 8080.
+RUN pkg update && \
+    pkg install -y ${PACKAGES} && \
+    mkdir -p /app /defaults && \
+    pkg query '%v' ${PKG_NAME} > /app/version && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/* && \
+    cp /usr/local/etc/ntfy/server.yml.sample /defaults/server.yml && \
+    sed -i '' \
+      -e 's|^# cache-file: <filename>|cache-file: "/config/cache/cache.db"|' \
+      -e 's|^# auth-file: <filename>|auth-file: "/config/user.db"|' \
+      /defaults/server.yml
+
+COPY root/ /
+RUN chmod +x /daemonless/libexec/ntfy /daemonless/init.d/* /healthz
+
+CMD ["/daemonless/libexec/ntfy"]
+
+EXPOSE 8080
+VOLUME /config

@@ -1,0 +1,13 @@
+#!/bin/sh
+# Start ntfy; /init has already dropped to the run user.
+
+export HOME=/config
+
+# ntfy refuses an attachment cache without a base URL, so attachments come on
+# with the URL: set either in server.yml to take over both.
+if [ -n "${NTFY_BASE_URL:-}" ]; then
+    export NTFY_ATTACHMENT_CACHE_DIR="${NTFY_ATTACHMENT_CACHE_DIR:-/config/cache/attachments}"
+fi
+
+cd /config
+exec /usr/local/bin/ntfy serve --config /config/server.yml
