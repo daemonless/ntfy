@@ -1,0 +1,1576 @@
+{
+  "generated": "2026-11-02T22:31:55Z",
+  "image": "ntfy",
+  "tags": {
+    "pkg-aarch64": {
+      "app_version": "2.29.0_1",
+      "arch": "aarch64",
+      "generated": "2026-11-02T22:29:58Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-clibs",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libcasper",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-mtree",
+            "version": "15.1p2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-runtime",
+            "version": "15.1p6"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-utilities",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "licenses": [
+              "Zlib"
+            ],
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "PD"
+            ],
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1p5"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "MPL20"
+            ],
+            "name": "ca_root_nss",
+            "version": "3.131"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "expat",
+            "version": "2.8.4"
+          },
+          {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
+            "name": "gettext-runtime",
+            "version": "1.0_1"
+          },
+          {
+            "licenses": [
+              "APACHE20"
+            ],
+            "name": "go-ntfy",
+            "version": "2.29.0_1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "jq",
+            "version": "1.8.2"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "libffi",
+            "version": "3.8.0"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "pkg",
+            "version": "2.8.4"
+          },
+          {
+            "licenses": [
+              "PSFL"
+            ],
+            "name": "python312",
+            "version": "3.12.15"
+          },
+          {
+            "licenses": [
+              "GPLv3"
+            ],
+            "name": "readline",
+            "version": "8.3.6"
+          }
+        ],
+        "go": [
+          {
+            "name": "cel.dev/expr",
+            "purl": "",
+            "version": "v0.25.3"
+          },
+          {
+            "name": "cloud.google.com/go",
+            "purl": "",
+            "version": "v0.123.0"
+          },
+          {
+            "name": "cloud.google.com/go/auth",
+            "purl": "",
+            "version": "v0.24.0"
+          },
+          {
+            "name": "cloud.google.com/go/auth/oauth2adapt",
+            "purl": "",
+            "version": "v0.3.0"
+          },
+          {
+            "name": "cloud.google.com/go/compute/metadata",
+            "purl": "",
+            "version": "v0.10.0"
+          },
+          {
+            "name": "cloud.google.com/go/firestore",
+            "purl": "",
+            "version": "v1.26.0"
+          },
+          {
+            "name": "cloud.google.com/go/iam",
+            "purl": "",
+            "version": "v1.14.0"
+          },
+          {
+            "name": "cloud.google.com/go/longrunning",
+            "purl": "",
+            "version": "v1.3.0"
+          },
+          {
+            "name": "cloud.google.com/go/monitoring",
+            "purl": "",
+            "version": "v1.31.0"
+          },
+          {
+            "name": "cloud.google.com/go/storage",
+            "purl": "",
+            "version": "v1.69.0"
+          },
+          {
+            "name": "firebase.google.com/go/v4",
+            "purl": "",
+            "version": "v4.22.0"
+          },
+          {
+            "name": "github.com/AlekSi/pointer",
+            "purl": "",
+            "version": "v1.2.0"
+          },
+          {
+            "name": "github.com/BurntSushi/toml",
+            "purl": "",
+            "version": "v1.6.0"
+          },
+          {
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric",
+            "purl": "",
+            "version": "v0.62.0"
+          },
+          {
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping",
+            "purl": "",
+            "version": "v0.62.0"
+          },
+          {
+            "name": "github.com/MicahParks/keyfunc",
+            "purl": "",
+            "version": "v1.9.0"
+          },
+          {
+            "name": "github.com/SherClockHolmes/webpush-go",
+            "purl": "",
+            "version": "v1.4.0"
+          },
+          {
+            "name": "github.com/aymerick/douceur",
+            "purl": "",
+            "version": "v0.2.0"
+          },
+          {
+            "name": "github.com/beorn7/perks",
+            "purl": "",
+            "version": "v1.0.1"
+          },
+          {
+            "name": "github.com/cespare/xxhash/v2",
+            "purl": "",
+            "version": "v2.3.0"
+          },
+          {
+            "name": "github.com/cncf/xds/go",
+            "purl": "",
+            "version": "v0.0.0-20260202195803-dba9d589def2"
+          },
+          {
+            "name": "github.com/cpuguy83/go-md2man/v2",
+            "purl": "",
+            "version": "v2.0.7"
+          },
+          {
+            "name": "github.com/emersion/go-sasl",
+            "purl": "",
+            "version": "v0.0.0-20241020182733-b788ff22d5a6"
+          },
+          {
+            "name": "github.com/emersion/go-smtp",
+            "purl": "",
+            "version": "v0.17.0"
+          },
+          {
+            "name": "github.com/envoyproxy/go-control-plane/envoy",
+            "purl": "",
+            "version": "v1.39.0"
+          },
+          {
+            "name": "github.com/envoyproxy/protoc-gen-validate",
+            "purl": "",
+            "version": "v1.3.3"
+          },
+          {
+            "name": "github.com/felixge/httpsnoop",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/gabriel-vasile/mimetype",
+            "purl": "",
+            "version": "v1.4.15"
+          },
+          {
+            "name": "github.com/go-jose/go-jose/v4",
+            "purl": "",
+            "version": "v4.1.5"
+          },
+          {
+            "name": "github.com/go-logr/logr",
+            "purl": "",
+            "version": "v1.4.4"
+          },
+          {
+            "name": "github.com/go-logr/stdr",
+            "purl": "",
+            "version": "v1.2.2"
+          },
+          {
+            "name": "github.com/golang-jwt/jwt/v4",
+            "purl": "",
+            "version": "v4.5.2"
+          },
+          {
+            "name": "github.com/golang-jwt/jwt/v5",
+            "purl": "",
+            "version": "v5.3.1"
+          },
+          {
+            "name": "github.com/google/s2a-go",
+            "purl": "",
+            "version": "v0.1.11"
+          },
+          {
+            "name": "github.com/google/uuid",
+            "purl": "",
+            "version": "v1.6.0"
+          },
+          {
+            "name": "github.com/googleapis/enterprise-certificate-proxy",
+            "purl": "",
+            "version": "v0.3.22"
+          },
+          {
+            "name": "github.com/googleapis/gax-go/v2",
+            "purl": "",
+            "version": "v2.26.2"
+          },
+          {
+            "name": "github.com/gorilla/css",
+            "purl": "",
+            "version": "v1.0.1"
+          },
+          {
+            "name": "github.com/gorilla/websocket",
+            "purl": "",
+            "version": "v1.5.3"
+          },
+          {
+            "name": "github.com/jackc/pgpassfile",
+            "purl": "",
+            "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/jackc/pgservicefile",
+            "purl": "",
+            "version": "v0.0.0-20240606120523-5a60cdf6a761"
+          },
+          {
+            "name": "github.com/jackc/pgx/v5",
+            "purl": "",
+            "version": "v5.11.0"
+          },
+          {
+            "name": "github.com/jackc/puddle/v2",
+            "purl": "",
+            "version": "v2.2.3"
+          },
+          {
+            "name": "github.com/mattn/go-sqlite3",
+            "purl": "",
+            "version": "v1.14.52"
+          },
+          {
+            "name": "github.com/microcosm-cc/bluemonday",
+            "purl": "",
+            "version": "v1.0.27"
+          },
+          {
+            "name": "github.com/munnerz/goautoneg",
+            "purl": "",
+            "version": "v0.0.0-20191010083416-a7dc8b61c822"
+          },
+          {
+            "name": "github.com/olebedev/when",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/pkg/errors",
+            "purl": "",
+            "version": "v0.9.1"
+          },
+          {
+            "name": "github.com/prometheus/client_golang",
+            "purl": "",
+            "version": "v1.24.1"
+          },
+          {
+            "name": "github.com/prometheus/client_model",
+            "purl": "",
+            "version": "v0.6.3"
+          },
+          {
+            "name": "github.com/prometheus/common",
+            "purl": "",
+            "version": "v0.72.0"
+          },
+          {
+            "name": "github.com/prometheus/procfs",
+            "purl": "",
+            "version": "v0.22.0"
+          },
+          {
+            "name": "github.com/russross/blackfriday/v2",
+            "purl": "",
+            "version": "v2.1.0"
+          },
+          {
+            "name": "github.com/spiffe/go-spiffe/v2",
+            "purl": "",
+            "version": "v2.9.0"
+          },
+          {
+            "name": "github.com/stripe/stripe-go/v74",
+            "purl": "",
+            "version": "v74.30.0"
+          },
+          {
+            "name": "github.com/urfave/cli/v2",
+            "purl": "",
+            "version": "v2.27.7"
+          },
+          {
+            "name": "github.com/xrash/smetrics",
+            "purl": "",
+            "version": "v0.0.0-20250705151800-55b8f293f342"
+          },
+          {
+            "name": "go.opentelemetry.io/auto/sdk",
+            "purl": "",
+            "version": "v1.2.1"
+          },
+          {
+            "name": "go.opentelemetry.io/contrib/detectors/gcp",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+            "purl": "",
+            "version": "v0.72.0"
+          },
+          {
+            "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+            "purl": "",
+            "version": "v0.72.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/log",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/metric",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/sdk",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/sdk/metric",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/trace",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "golang.org/x/crypto",
+            "purl": "",
+            "version": "v0.57.0"
+          },
+          {
+            "name": "golang.org/x/net",
+            "purl": "",
+            "version": "v0.59.0"
+          },
+          {
+            "name": "golang.org/x/oauth2",
+            "purl": "",
+            "version": "v0.37.0"
+          },
+          {
+            "name": "golang.org/x/sync",
+            "purl": "",
+            "version": "v0.23.0"
+          },
+          {
+            "name": "golang.org/x/sys",
+            "purl": "",
+            "version": "v0.48.0"
+          },
+          {
+            "name": "golang.org/x/term",
+            "purl": "",
+            "version": "v0.46.0"
+          },
+          {
+            "name": "golang.org/x/text",
+            "purl": "",
+            "version": "v0.42.0"
+          },
+          {
+            "name": "golang.org/x/time",
+            "purl": "",
+            "version": "v0.16.0"
+          },
+          {
+            "name": "google.golang.org/api",
+            "purl": "",
+            "version": "v0.300.0"
+          },
+          {
+            "name": "google.golang.org/genproto",
+            "purl": "",
+            "version": "v0.0.0-20261005182115-fad411399dd8"
+          },
+          {
+            "name": "google.golang.org/genproto/googleapis/api",
+            "purl": "",
+            "version": "v0.0.0-20261005182115-fad411399dd8"
+          },
+          {
+            "name": "google.golang.org/genproto/googleapis/rpc",
+            "purl": "",
+            "version": "v0.0.0-20261005182115-fad411399dd8"
+          },
+          {
+            "name": "google.golang.org/grpc",
+            "purl": "",
+            "version": "v1.84.0"
+          },
+          {
+            "name": "google.golang.org/protobuf",
+            "purl": "",
+            "version": "v1.36.12"
+          },
+          {
+            "name": "gopkg.in/yaml.v2",
+            "purl": "",
+            "version": "v2.4.0"
+          },
+          {
+            "name": "gopkg.in/yaml.v3",
+            "purl": "",
+            "version": "v3.0.1"
+          },
+          {
+            "name": "heckel.io/ntfy/v2",
+            "purl": "",
+            "version": ""
+          },
+          {
+            "name": "stdlib",
+            "purl": "",
+            "version": "v1.26.9"
+          }
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "purl": "",
+            "version": "21.12"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 46,
+        "go": 85,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 1,
+        "ruby": 0,
+        "rust": 0,
+        "total": 132
+      }
+    },
+    "pkg-latest-aarch64": {
+      "app_version": "2.29.0_1",
+      "arch": "aarch64",
+      "generated": "2026-11-02T22:30:05Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-clibs",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libcasper",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-mtree",
+            "version": "15.1p2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-runtime",
+            "version": "15.1p6"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-utilities",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "licenses": [
+              "Zlib"
+            ],
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "PD"
+            ],
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1p5"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "MPL20"
+            ],
+            "name": "ca_root_nss",
+            "version": "3.131"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "expat",
+            "version": "2.9.0"
+          },
+          {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
+            "name": "gettext-runtime",
+            "version": "1.0_1"
+          },
+          {
+            "licenses": [
+              "APACHE20"
+            ],
+            "name": "go-ntfy",
+            "version": "2.29.0_1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "jq",
+            "version": "1.8.2"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "libffi",
+            "version": "3.8.0"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "pkg",
+            "version": "2.8.4"
+          },
+          {
+            "licenses": [
+              "PSFL"
+            ],
+            "name": "python312",
+            "version": "3.12.15"
+          },
+          {
+            "licenses": [
+              "GPLv3"
+            ],
+            "name": "readline",
+            "version": "8.3.6"
+          }
+        ],
+        "go": [
+          {
+            "name": "cel.dev/expr",
+            "purl": "",
+            "version": "v0.25.3"
+          },
+          {
+            "name": "cloud.google.com/go",
+            "purl": "",
+            "version": "v0.123.0"
+          },
+          {
+            "name": "cloud.google.com/go/auth",
+            "purl": "",
+            "version": "v0.24.0"
+          },
+          {
+            "name": "cloud.google.com/go/auth/oauth2adapt",
+            "purl": "",
+            "version": "v0.3.0"
+          },
+          {
+            "name": "cloud.google.com/go/compute/metadata",
+            "purl": "",
+            "version": "v0.10.0"
+          },
+          {
+            "name": "cloud.google.com/go/firestore",
+            "purl": "",
+            "version": "v1.26.0"
+          },
+          {
+            "name": "cloud.google.com/go/iam",
+            "purl": "",
+            "version": "v1.14.0"
+          },
+          {
+            "name": "cloud.google.com/go/longrunning",
+            "purl": "",
+            "version": "v1.3.0"
+          },
+          {
+            "name": "cloud.google.com/go/monitoring",
+            "purl": "",
+            "version": "v1.31.0"
+          },
+          {
+            "name": "cloud.google.com/go/storage",
+            "purl": "",
+            "version": "v1.69.0"
+          },
+          {
+            "name": "firebase.google.com/go/v4",
+            "purl": "",
+            "version": "v4.22.0"
+          },
+          {
+            "name": "github.com/AlekSi/pointer",
+            "purl": "",
+            "version": "v1.2.0"
+          },
+          {
+            "name": "github.com/BurntSushi/toml",
+            "purl": "",
+            "version": "v1.6.0"
+          },
+          {
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric",
+            "purl": "",
+            "version": "v0.62.0"
+          },
+          {
+            "name": "github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping",
+            "purl": "",
+            "version": "v0.62.0"
+          },
+          {
+            "name": "github.com/MicahParks/keyfunc",
+            "purl": "",
+            "version": "v1.9.0"
+          },
+          {
+            "name": "github.com/SherClockHolmes/webpush-go",
+            "purl": "",
+            "version": "v1.4.0"
+          },
+          {
+            "name": "github.com/aymerick/douceur",
+            "purl": "",
+            "version": "v0.2.0"
+          },
+          {
+            "name": "github.com/beorn7/perks",
+            "purl": "",
+            "version": "v1.0.1"
+          },
+          {
+            "name": "github.com/cespare/xxhash/v2",
+            "purl": "",
+            "version": "v2.3.0"
+          },
+          {
+            "name": "github.com/cncf/xds/go",
+            "purl": "",
+            "version": "v0.0.0-20260202195803-dba9d589def2"
+          },
+          {
+            "name": "github.com/cpuguy83/go-md2man/v2",
+            "purl": "",
+            "version": "v2.0.7"
+          },
+          {
+            "name": "github.com/emersion/go-sasl",
+            "purl": "",
+            "version": "v0.0.0-20241020182733-b788ff22d5a6"
+          },
+          {
+            "name": "github.com/emersion/go-smtp",
+            "purl": "",
+            "version": "v0.17.0"
+          },
+          {
+            "name": "github.com/envoyproxy/go-control-plane/envoy",
+            "purl": "",
+            "version": "v1.39.0"
+          },
+          {
+            "name": "github.com/envoyproxy/protoc-gen-validate",
+            "purl": "",
+            "version": "v1.3.3"
+          },
+          {
+            "name": "github.com/felixge/httpsnoop",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/gabriel-vasile/mimetype",
+            "purl": "",
+            "version": "v1.4.15"
+          },
+          {
+            "name": "github.com/go-jose/go-jose/v4",
+            "purl": "",
+            "version": "v4.1.5"
+          },
+          {
+            "name": "github.com/go-logr/logr",
+            "purl": "",
+            "version": "v1.4.4"
+          },
+          {
+            "name": "github.com/go-logr/stdr",
+            "purl": "",
+            "version": "v1.2.2"
+          },
+          {
+            "name": "github.com/golang-jwt/jwt/v4",
+            "purl": "",
+            "version": "v4.5.2"
+          },
+          {
+            "name": "github.com/golang-jwt/jwt/v5",
+            "purl": "",
+            "version": "v5.3.1"
+          },
+          {
+            "name": "github.com/google/s2a-go",
+            "purl": "",
+            "version": "v0.1.11"
+          },
+          {
+            "name": "github.com/google/uuid",
+            "purl": "",
+            "version": "v1.6.0"
+          },
+          {
+            "name": "github.com/googleapis/enterprise-certificate-proxy",
+            "purl": "",
+            "version": "v0.3.22"
+          },
+          {
+            "name": "github.com/googleapis/gax-go/v2",
+            "purl": "",
+            "version": "v2.26.2"
+          },
+          {
+            "name": "github.com/gorilla/css",
+            "purl": "",
+            "version": "v1.0.1"
+          },
+          {
+            "name": "github.com/gorilla/websocket",
+            "purl": "",
+            "version": "v1.5.3"
+          },
+          {
+            "name": "github.com/jackc/pgpassfile",
+            "purl": "",
+            "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/jackc/pgservicefile",
+            "purl": "",
+            "version": "v0.0.0-20240606120523-5a60cdf6a761"
+          },
+          {
+            "name": "github.com/jackc/pgx/v5",
+            "purl": "",
+            "version": "v5.11.0"
+          },
+          {
+            "name": "github.com/jackc/puddle/v2",
+            "purl": "",
+            "version": "v2.2.3"
+          },
+          {
+            "name": "github.com/mattn/go-sqlite3",
+            "purl": "",
+            "version": "v1.14.52"
+          },
+          {
+            "name": "github.com/microcosm-cc/bluemonday",
+            "purl": "",
+            "version": "v1.0.27"
+          },
+          {
+            "name": "github.com/munnerz/goautoneg",
+            "purl": "",
+            "version": "v0.0.0-20191010083416-a7dc8b61c822"
+          },
+          {
+            "name": "github.com/olebedev/when",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/pkg/errors",
+            "purl": "",
+            "version": "v0.9.1"
+          },
+          {
+            "name": "github.com/prometheus/client_golang",
+            "purl": "",
+            "version": "v1.24.1"
+          },
+          {
+            "name": "github.com/prometheus/client_model",
+            "purl": "",
+            "version": "v0.6.3"
+          },
+          {
+            "name": "github.com/prometheus/common",
+            "purl": "",
+            "version": "v0.72.0"
+          },
+          {
+            "name": "github.com/prometheus/procfs",
+            "purl": "",
+            "version": "v0.22.0"
+          },
+          {
+            "name": "github.com/russross/blackfriday/v2",
+            "purl": "",
+            "version": "v2.1.0"
+          },
+          {
+            "name": "github.com/spiffe/go-spiffe/v2",
+            "purl": "",
+            "version": "v2.9.0"
+          },
+          {
+            "name": "github.com/stripe/stripe-go/v74",
+            "purl": "",
+            "version": "v74.30.0"
+          },
+          {
+            "name": "github.com/urfave/cli/v2",
+            "purl": "",
+            "version": "v2.27.7"
+          },
+          {
+            "name": "github.com/xrash/smetrics",
+            "purl": "",
+            "version": "v0.0.0-20250705151800-55b8f293f342"
+          },
+          {
+            "name": "go.opentelemetry.io/auto/sdk",
+            "purl": "",
+            "version": "v1.2.1"
+          },
+          {
+            "name": "go.opentelemetry.io/contrib/detectors/gcp",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+            "purl": "",
+            "version": "v0.72.0"
+          },
+          {
+            "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+            "purl": "",
+            "version": "v0.72.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/log",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/metric",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/sdk",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/sdk/metric",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "go.opentelemetry.io/otel/trace",
+            "purl": "",
+            "version": "v1.47.0"
+          },
+          {
+            "name": "golang.org/x/crypto",
+            "purl": "",
+            "version": "v0.57.0"
+          },
+          {
+            "name": "golang.org/x/net",
+            "purl": "",
+            "version": "v0.59.0"
+          },
+          {
+            "name": "golang.org/x/oauth2",
+            "purl": "",
+            "version": "v0.37.0"
+          },
+          {
+            "name": "golang.org/x/sync",
+            "purl": "",
+            "version": "v0.23.0"
+          },
+          {
+            "name": "golang.org/x/sys",
+            "purl": "",
+            "version": "v0.48.0"
+          },
+          {
+            "name": "golang.org/x/term",
+            "purl": "",
+            "version": "v0.46.0"
+          },
+          {
+            "name": "golang.org/x/text",
+            "purl": "",
+            "version": "v0.42.0"
+          },
+          {
+            "name": "golang.org/x/time",
+            "purl": "",
+            "version": "v0.16.0"
+          },
+          {
+            "name": "google.golang.org/api",
+            "purl": "",
+            "version": "v0.300.0"
+          },
+          {
+            "name": "google.golang.org/genproto",
+            "purl": "",
+            "version": "v0.0.0-20261005182115-fad411399dd8"
+          },
+          {
+            "name": "google.golang.org/genproto/googleapis/api",
+            "purl": "",
+            "version": "v0.0.0-20261005182115-fad411399dd8"
+          },
+          {
+            "name": "google.golang.org/genproto/googleapis/rpc",
+            "purl": "",
+            "version": "v0.0.0-20261005182115-fad411399dd8"
+          },
+          {
+            "name": "google.golang.org/grpc",
+            "purl": "",
+            "version": "v1.84.0"
+          },
+          {
+            "name": "google.golang.org/protobuf",
+            "purl": "",
+            "version": "v1.36.12"
+          },
+          {
+            "name": "gopkg.in/yaml.v2",
+            "purl": "",
+            "version": "v2.4.0"
+          },
+          {
+            "name": "gopkg.in/yaml.v3",
+            "purl": "",
+            "version": "v3.0.1"
+          },
+          {
+            "name": "heckel.io/ntfy/v2",
+            "purl": "",
+            "version": ""
+          },
+          {
+            "name": "stdlib",
+            "purl": "",
+            "version": "v1.27.2"
+          }
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "purl": "",
+            "version": "21.12"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 46,
+        "go": 85,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 1,
+        "ruby": 0,
+        "rust": 0,
+        "total": 132
+      }
+    }
+  }
+}
