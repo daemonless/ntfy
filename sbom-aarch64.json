@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-02T23:31:37Z",
+  "generated": "2026-11-03T09:53:12Z",
   "image": "ntfy",
   "tags": {
     "pkg-aarch64": {
-      "app_version": "2.29.0_1",
+      "app_version": "2.29.0_2",
       "arch": "aarch64",
-      "generated": "2026-11-02T23:29:49Z",
+      "generated": "2026-11-03T09:51:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -274,7 +274,7 @@
               "APACHE20"
             ],
             "name": "go-ntfy",
-            "version": "2.29.0_1"
+            "version": "2.29.0_2"
           },
           {
             "licenses": [
@@ -757,7 +757,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.9"
+            "version": "v1.26.10"
           }
         ],
         "java": [],
@@ -788,9 +788,9 @@
       }
     },
     "pkg-latest-aarch64": {
-      "app_version": "2.29.0_1",
+      "app_version": "2.29.0_2",
       "arch": "aarch64",
-      "generated": "2026-11-02T23:29:54Z",
+      "generated": "2026-11-03T09:51:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1037,7 +1037,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -1059,7 +1059,7 @@
               "APACHE20"
             ],
             "name": "go-ntfy",
-            "version": "2.29.0_1"
+            "version": "2.29.0_2"
           },
           {
             "licenses": [
@@ -1542,7 +1542,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.2"
+            "version": "v1.27.3"
           }
         ],
         "java": [],
