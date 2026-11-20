@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-17T09:20:57Z",
+  "generated": "2026-11-20T09:57:19Z",
   "image": "ntfy",
   "tags": {
     "pkg-aarch64": {
       "app_version": "2.29.0_3",
       "arch": "aarch64",
-      "generated": "2026-11-17T09:19:22Z",
+      "generated": "2026-11-20T09:55:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -788,9 +788,9 @@
       }
     },
     "pkg-latest-aarch64": {
-      "app_version": "2.29.0_2",
+      "app_version": "2.29.0_3",
       "arch": "aarch64",
-      "generated": "2026-11-17T09:19:25Z",
+      "generated": "2026-11-20T09:55:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1059,7 +1059,7 @@
               "APACHE20"
             ],
             "name": "go-ntfy",
-            "version": "2.29.0_2"
+            "version": "2.29.0_3"
           },
           {
             "licenses": [
@@ -1101,14 +1101,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.9.0"
+            "version": "2.9.2"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -1542,7 +1542,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           }
         ],
         "java": [],
